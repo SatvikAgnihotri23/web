@@ -1,0 +1,67 @@
+/*
+  (this is a CSS comment)
+  Satvik Agnihotri Daniel Y Fahim K
+  IntroCS pd7 sec1
+  HW05 -- Stuylin'
+  2021-02-11
+*/
+
+/*
+structure of a CSS ruleset:s
+
+SELECTOR { 0 or more DECLARATIONS }
+
+where each declaration is of the form
+
+PROPERTY : VALUE;
+
+    Animation code is owned by Greg Hovanesyan on CodePen.
+ */
+ @keyframes animation {
+    from {
+      letter-spacing: 32px;
+    }
+    to {
+      letter-spacing: 0;
+    }
+  }
+  
+  .animated {
+    animation: animation 5s ease infinite;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 30px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Poppins', sans-serif; /* this should be the rest of the output you got from Google fonts */
+    color: navy
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif; /* this should be the rest of the output you got from Google fonts */
+    color: black;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+h3 {
+    font-size: 20;
+    font-family: 'Poppins', sans-serif; /* this should be the rest of the output you got from Google fonts */
+    color: black;
+}
+p{
+    font-size: 15px;
+    font-family: Lato, Helvetica, sans-serif;
+    color: black;
+}
+
+
+/* this will make the page background black */
+body {
+    background-color: lightcyan; 
+
+}
+
+
+
